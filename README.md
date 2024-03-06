@@ -1,6 +1,6 @@
 <div align="center">
   
-# QDTS
+# Stochastic Resonance
 
 [**Rodrigo Cádiz**](https://rodrigocadiz.com/music/)<sup>1,2</sup> and [**Esteban Gutiérrez**](https://github.com/cordutie)<sup>3</sup>
 
