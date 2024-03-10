@@ -12,9 +12,11 @@
 
 ## Introduction
 
-To do [[1]](#1).
+The phenomenon of Stochastic Resonance was first introduced by Benzi, Parisi, Sutera and Vulpiani [[1]](#1) in the context of a particular stochastic dynamical system, and was later formulated in many different contexts (see for example [[2]](#2)). As it is, this phenomenon shouldn't be understood as one model, but else as a technique to create models that allows to study different stochastic dynamical systems.
 
-[![Alt text](https://i3.ytimg.com/vi/UodLZ9XQ_S0/maxresdefault.jpg)](https://youtu.be/UodLZ9XQ_S0)
+Stochastic resonance is not just a theoretical phenomenon, as it has been observed in various fields, including theoretical physics [[2]](#2), signal processing [[3]](#3), metrology [[5]](#5) and sensory biology [[6]](#6). Despite this, and its clear potential as a signal processing model, there are very few documented uses of this ideas in both sound synthesis and processing.
+
+In this repository we present "Stochastic Resonance", a package for Max that implements real-time algorithms based on Stochastic Resonance techniques that we have found can be used in sound and music applications. This package was written using the [min-devkit](https://github.com/Cycling74/min-devkit), a software development kit to develop Max externals using modern C++ code. Due to this, we were able to take advantage of the raw power of C++ and ensured that the externals in the package run as efficiently and fast as possible.
 
 ## Contents
 
@@ -45,4 +47,14 @@ of patches to recreate the video demo locally.
 
 ## References
 
-<a id="1">[1]</a> J. B. Dewey, “Cubic and quadratic distortion products in vibrations of the mouse cochlear apex,” JASA Express Letters 2, vol. 11, no. 114402, 2022.\
+<a id="1">[1]</a> R. Benzi, A. Sutera, and A. Vulpiani, “The mechanism of stochastic resonance,” Journal of Physics A: Mathematical and General, vol. 14, no. 11, p. L453, Jan. 1981. DOI: 10.1088/0305-4470/14/11/006
+
+<a id="2">[2]</a> L. Gammaitoni, P. Hänggi, P. Jung, and F. Marchesoni, “Stochastic resonance,” Rev. Mod. Phys., vol. 70, no. 1, pp. 223–287, Jan. 1998. DOI: 10.1103/RevModPhys.70.223
+
+<a id="3">[3]</a> M. Ueda, “Improvement of signal-to-noise ratio by stochastic resonance in sigmoid function threshold systems, demonstrated using a CMOS inverter,” Physica A: Statistical Mechanics and its Applications, vol. 389, no. 10, pp. 1978–1985, 2010. DOI: 10.1016/j.physa.2010.01.035
+
+<a id="4">[4]</a> A. Palonpon, J. Amistoso, J. Holdsworth, W. Garcia, and C. Saloma, “Measurement of weak transmittances by stochastic resonance,” Opt. Lett., vol. 23, no. 18, pp. 1480–1482, Sep. 1998. DOI: 10.1364/OL.23.001480
+
+<a id="5">[5]</a> A. Palonpon, J. Amistoso, J. Holdsworth, W. Garcia, and C. Saloma, “Measurement of weak transmittances by stochastic resonance,” Opt. Lett., vol. 23, no. 18, pp. 1480–1482, Sep. 1998. DOI: 10.1364/OL.23.001480
+
+<a id="6">[6]</a> J. J. Collins, C. C. Chow, and T. T. Imhoff, “Stochastic resonance without tuning,” Nature, vol. 376, no. 6537, pp. 236–238, Jul. 1995.
