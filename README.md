@@ -43,7 +43,10 @@ to easily manipulate the MAX external.
 
 In this folder, several video demos of the MAX external. Each demo 
 contains a brief readme file containing a description of it and a series 
-of patches to recreate the video demo locally.
+of patches to recreate the video demo locally. Additionally, all videos can be found in the following youtube playlist:
+
+[https://www.youtube.com/playlist?list=PLTk_Hl5v7kDXeXG7BO6wIWGkhd0m55JrT](https://www.youtube.com/playlist?list=PLTk_Hl5v7kDXeXG7BO6wIWGkhd0m55JrT)
+
 
 ## References
 
